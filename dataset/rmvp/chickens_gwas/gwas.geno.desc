@@ -1,0 +1,5 @@
+new("big.matrix.descriptor", description = list(sharedType = "FileBacked", 
+    filename = "gwas.geno.bin", dirname = "dataset/rmvp/chickens_gwas/", 
+    totalRows = 234L, totalCols = 434529L, rowOffset = c(0, 234
+    ), colOffset = c(0, 434529), nrow = 234, ncol = 434529, rowNames = NULL, 
+    colNames = NULL, type = "char", separated = FALSE))

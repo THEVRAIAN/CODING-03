@@ -1,0 +1,80 @@
+======================== Welcome to MVP =========================
+    an R package for Memory-efficient, Visualization-enhanced    
+     and Parallel-accelerated genome-wide association study      
+                      __  __  __   __  ___                       
+                     |  \/  | \ \ / / | _ \                      
+                     | |\/| |  \ V /  |  _/                      
+                     |_|  |_|   \_/   |_|        Version: 1.4.6  
+  Design & Maintain: Lilin Yin, Haohao Zhang, and Xiaolei Liu    
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin, Zhiwu      
+  Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao, Xinyun Li      
+  Mailto: xiaoleiliu@mail.hzau.edu.cn, ylilin@mail.hzau.edu.cn   
+=================================================================
+Start: 2026-10-14 16:02:15 -05 
+The log has been output to the file: dataset/rmvp/chickens_gwas/MVP.20261014_160215.log 
+Input data has 234 individuals and 434529 markers 
+Markers are detected to be stored by column 
+Analyzed trait: Trait1 
+Number of threads used: 11 
+No high performance math library detected! The computational efficiency would be greatly reduced
+Calculate allele frequency... 
+Eigen Decomposition on GRM 
+-------------------------GWAS Start------------------------- 
+General Linear Model (GLM) Start... 
+scanning...
+Genomic inflation factor (lambda): 0.9686 
+Writing results to local file 
+Mixed Linear Model (MLM) Start... 
+Variance components using: BRENT 
+Estimated Vg and Ve: 0.000247 3.737019 
+scanning...
+Genomic inflation factor (lambda): 0.9709 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+0 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+Top snps have little effect, set seqQTN to NULL! 
+Genomic inflation factor (lambda): 0.9686 
+Writing results to local file 
+Significant level: 1.15e-07 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+SNP_Density Plotting 
+Circular_Manhattan Plotting Trait1.GLM 
+Circular_Manhattan Plotting Trait1.MLM 
+Circular_Manhattan Plotting Trait1.FarmCPU 
+Rectangular_Manhattan Plotting Trait1.GLM 
+Rectangular_Manhattan Plotting Trait1.MLM 
+Rectangular_Manhattan Plotting Trait1.FarmCPU 
+Q_Q Plotting Trait1.GLM 
+Q_Q Plotting Trait1.MLM 
+Q_Q Plotting Trait1.FarmCPU 
+Multracks_Rectangular Plotting Trait1.GLM 
+Multracks_Rectangular Plotting Trait1.MLM 
+Multracks_Rectangular Plotting Trait1.FarmCPU 
+Multracks_QQ Plotting Trait1.GLM 
+Multracks_QQ Plotting Trait1.MLM 
+Multracks_QQ Plotting Trait1.FarmCPU 
+Multraits_QQ Plotting Trait1.GLM 
+Multraits_QQ Plotting Trait1.MLM 
+Multraits_QQ Plotting Trait1.FarmCPU 
+Results are stored at Working Directory: dataset/rmvp/chickens_gwas 
+End: 2026-10-14 16:09:04 -05 
+Total running time: 6m49s 
+===================== MVP ACCOMPLISHED ===================== 
+SNP_Density Plotting 
+Multracks_Rectangular Plotting Trait1.GLM 
+Multracks_Rectangular Plotting Trait1.MLM 
+Multracks_Rectangular Plotting Trait1.FarmCPU 
+Multracks_QQ Plotting Trait1.GLM 
+Multracks_QQ Plotting Trait1.MLM 
+Multracks_QQ Plotting Trait1.FarmCPU 
+Multraits_QQ Plotting Trait1.GLM 
+Multraits_QQ Plotting Trait1.MLM 
+Multraits_QQ Plotting Trait1.FarmCPU 

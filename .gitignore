@@ -5,4 +5,7 @@
 *.vcf
 *.vcf.gz
 *.bin
-dataset/
+*.geno.bin
+*.phe.bin
+*.kin.bin
+*.pc.bin
